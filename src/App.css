@@ -1,0 +1,16 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.pill {
+  font-size: 100px;
+  transition: ease-in-out 0.5s;
+}
+
+.selected {
+  transition: ease-in-out 0.5s;
+}
