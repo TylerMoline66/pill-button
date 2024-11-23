@@ -27,7 +27,11 @@ const BigButton = () => {
 
   useEffect(() => {
     OneSignal.init({
-      appId: "YOUR_ONESIGNAL_APP_ID",
+      appId: "cccd1861-8459-4e7a-a235-9da0a1b9cd48",
+      safari_web_id: "web.onesignal.auto.48d27e8c-5bf0-4f8f-a083-e09c208eb2cb",
+      notifyButton: {
+        enable: true,
+      },
     });
   }, []);
 
